@@ -7,7 +7,7 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="Cache-Control" content="no-transform">
   <meta http-equiv="Cache-Control" content="no-siteapp">
-  <title>shichenyeshichenyeshichenye</title>
+  <title>开挖掘机的施晨烨</title>
   <style>
     /* body {
       text-align: center;
@@ -80,10 +80,10 @@
     let scrollTop = window.scrollY;
     let viewportHeight = window.innerHeight;
     let contenHeight = sidebar_content.getBoundingClientRect().height;
-    let sidebarTop = sidebar.getBoundingClientRect().top + window.pageXOffset;
+    let sidebarTop = sidebar.getBoundingClientRect().top + window.pageYOffset;
 
-    if (scrollTop >= contenHeight - viewportHeight + sidebarTop) {
-      sidebar_content.style.transform = `translateY(-${contenHeight - viewportHeight}px)`;
+    if (scrollTop >= contenHeight - viewportHeight + sidebarTop + 120) {
+      sidebar_content.style.transform = `translateY(-${contenHeight - viewportHeight + 120}px)`;
       sidebar_content.style.position = "fixed";
     } else {
       sidebar_content.style.transform = "";
