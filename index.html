@@ -3,21 +3,93 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="renderer" content="webkit">
   <meta http-equiv="Cache-Control" content="no-transform">
   <meta http-equiv="Cache-Control" content="no-siteapp">
   <title>shichenyeshichenyeshichenye</title>
+  <style>
+    /* body {
+      text-align: center;
+    } */
+
+    .body {
+      margin-left: 10vw;
+    }
+
+    .main {
+      width: 40vw;
+      margin: 20px;
+      float: left;
+    }
+
+    .sidebar {
+      margin: 20px;
+      float: left;
+    }
+
+    .main div {
+      height: 2200px;
+      background: linear-gradient(45deg, #feeeab 0%, #fb7eb3 60%);
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+
+    .sidebar .content-wrapper div {
+      width: 15vw;
+      height: 250px;
+      border-radius: 10px;
+      background: linear-gradient(45deg, #8fd0ff 0%, #79ebe0 60%);
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 
 <body>
-  <header id="shichenyeshichenyeshichenye">shichenyeshichenyeshichenye</header>
-  <nav>shichenyeshichenyeshichenye</nav>
-  <section class="shichenyeshichenyeshichenye">shichenyeshichenyeshichenye</section>
-  <article>shichenyeshichenyeshichenye</article>
-  <aside>shichenyeshichenyeshichenye</aside>
-  <footer>shichenyeshichenyeshichenye</footer>
+  <div class="body">
+    <div class="sidebar">
+      <div class="content-wrapper">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="main">
+      <div></div>
+      <div></div>
+    </div>
+    <div class="sidebar">
+      <div class="content-wrapper">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
 </body>
+<script>
+  let sidebar = document.getElementsByClassName("sidebar")[0]
+  let sidebar_content = document.getElementsByClassName("content-wrapper")[1]
+
+  window.onscroll = () => {
+    let scrollTop = window.scrollY;
+    let viewportHeight = window.innerHeight;
+    let contenHeight = sidebar_content.getBoundingClientRect().height;
+    let sidebarTop = sidebar.getBoundingClientRect().top + window.pageXOffset;
+
+    if (scrollTop >= contenHeight - viewportHeight + sidebarTop) {
+      sidebar_content.style.transform = `translateY(-${contenHeight - viewportHeight}px)`;
+      sidebar_content.style.position = "fixed";
+    } else {
+      sidebar_content.style.transform = "";
+      sidebar_content.style.position = "";
+    }
+  }
+</script>
 
 </html>
