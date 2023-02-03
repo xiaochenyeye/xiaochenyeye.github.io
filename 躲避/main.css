@@ -15,11 +15,13 @@ body {
 #left {
   position: fixed;
   left: 10%;
+  height: 20vh;
   width: 40vw;
 }
 #right {
   position: fixed;
   right: 10%;
+  height: 20vh;
   width: 40vw;
 }
 *,
