@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="googlebot" content="noindex, nofollow" />
+  <title>不要被创</title>
+
+  <link rel="stylesheet" type="text/css" href="main.css" />
+
+</head>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+  <div class="GUI">
+    <div class="score">分数: <output class="score-amount js-score">0</span></output></div>
+    <div class="instructions">Use A/D or arrow keys to move
+      <div class="scy"><button class="overlay-button" id="left">左</button><button class="overlay-button "
+          id="right">右</button></div>
+    </div>
+    <div id="gameover" class="overlay-wrapper">
+      <div class="overlay">
+        <h2 class="overlay-title">游戏结束</h2>
+        <div class="overlay-score">分数: <output class="score-amount js-score">0</output></div>
+        <button class="overlay-button js-play">再来一次</button>
+      </div>
+    </div>
+  </div>
+  <script type="application/javascript" src="main.js"></script>
+</body>
+
+</html>
