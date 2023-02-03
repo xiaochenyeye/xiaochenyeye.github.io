@@ -638,19 +638,19 @@ window.addEventListener("keydown", onKeyDown);
 
 var btnl = document.getElementById("left");
 var btnr = document.getElementById("right");
-btnl.addEventListener("touchstar", function () {
+btnl.addEventListener("touchstart", function () {
   const keyFlag = keyCodes[37];
   keysPressed |= keyFlag;
 });
-btnl.addEventListener("toucend", function () {
+btnl.addEventListener("touchend", function () {
   keysPressed &= ~keyCodes[37];
 });
 
-btnr.addEventListener("touchstar", function () {
+btnr.addEventListener("touchstart", function () {
   const keyFlag = keyCodes[39];
   keysPressed |= keyFlag;
 });
-btnr.addEventListener("toucend", function () {
+btnr.addEventListener("touchend", function () {
   keysPressed &= ~keyCodes[39];
 });
 
