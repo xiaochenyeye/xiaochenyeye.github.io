@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.82d71aea.css",
-    "main.js": "/static/js/main.ce70b337.js",
+    "main.css": "/static/css/main.3fa59848.css",
+    "main.js": "/static/js/main.900ee948.js",
     "static/media/fa-duotone-900.svg": "/static/media/fa-duotone-900.8a4beea8bb7df767b32d.svg",
     "static/media/fa-light-300.svg": "/static/media/fa-light-300.5ca944102bc3a85c0721.svg",
     "static/media/个人照片.png": "/static/media/个人照片.11bff3a399fc4d02274e.png",
@@ -57,12 +57,13 @@
     "static/media/item-07.png": "/static/media/item-07.1734a7ca80315b996a30.png",
     "static/media/react.png": "/static/media/react.cd5f4a13543707bae577.png",
     "static/media/datav.ico": "/static/media/datav.56126aff62d09e23e024.ico",
+    "static/media/cursor.ico": "/static/media/cursor.a6b06a2db56d8c6acee4.ico",
     "index.html": "/index.html",
-    "main.82d71aea.css.map": "/static/css/main.82d71aea.css.map",
-    "main.ce70b337.js.map": "/static/js/main.ce70b337.js.map"
+    "main.3fa59848.css.map": "/static/css/main.3fa59848.css.map",
+    "main.900ee948.js.map": "/static/js/main.900ee948.js.map"
   },
   "entrypoints": [
-    "static/css/main.82d71aea.css",
-    "static/js/main.ce70b337.js"
+    "static/css/main.3fa59848.css",
+    "static/js/main.900ee948.js"
   ]
 }
