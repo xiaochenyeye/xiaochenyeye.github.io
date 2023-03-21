@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3fa59848.css",
-    "main.js": "/static/js/main.900ee948.js",
+    "main.css": "/static/css/main.80c38035.css",
+    "main.js": "/static/js/main.7d523ce6.js",
     "static/media/fa-duotone-900.svg": "/static/media/fa-duotone-900.8a4beea8bb7df767b32d.svg",
     "static/media/fa-light-300.svg": "/static/media/fa-light-300.5ca944102bc3a85c0721.svg",
     "static/media/个人照片.png": "/static/media/个人照片.11bff3a399fc4d02274e.png",
@@ -59,11 +59,11 @@
     "static/media/datav.ico": "/static/media/datav.56126aff62d09e23e024.ico",
     "static/media/cursor.ico": "/static/media/cursor.a6b06a2db56d8c6acee4.ico",
     "index.html": "/index.html",
-    "main.3fa59848.css.map": "/static/css/main.3fa59848.css.map",
-    "main.900ee948.js.map": "/static/js/main.900ee948.js.map"
+    "main.80c38035.css.map": "/static/css/main.80c38035.css.map",
+    "main.7d523ce6.js.map": "/static/js/main.7d523ce6.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fa59848.css",
-    "static/js/main.900ee948.js"
+    "static/css/main.80c38035.css",
+    "static/js/main.7d523ce6.js"
   ]
 }
